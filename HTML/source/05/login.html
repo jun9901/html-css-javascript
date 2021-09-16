@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+		<meta charset="UTF-8">
+		<title>로그인</title>
+  </head>
+  <body>
+    <!-- 1번 Form -->
+	<form method="GET" action="#">
+    <!-- get 주소표시줄에 사용자가 입력한 데이터가 기록된다. -->
+    <fieldset>
+    	<label>아이디: <input type="text" id="user_id" size="10" placeholder="아이디를 입력하세요" required autofocus></label>
+      <label>비밀번호: <input type="password" id="user_pw" size="10" placeholder="비밀번호" required></label>
+      <input type="submit" value="로그인">
+      <!-- submit은 서버에 값을 전달하는 것 -->
+    </fieldset>
+  </form>
+  <!-- 2번 Form -->
+  <form method="POST" action="#">
+    <!-- post는 입력에 제한이 없으며 주소표시줄에 데이터가 기록되지 않는다. -->
+    <!-- post는 서버가 연결이 되어야지 기능이 작동한다. -->
+    <label for="test_id">테스트 아이디</label>
+    <input type="text" id = "test_id" placeholder="아이디">
+    <input type="submit" value = "전달">
+  <!-- 폼마다 서버에 다르게 데이터를 전달할 수 있다. -->
+  <!-- action에는 서버주소를 입력한다. -->
+  <!-- submit과 form은 항상 같이 다닌다. -->
+  </form>
+
+  <input type="search" name="" id="">
+  <input type="url" name="" id="">
+  <input type="email" name="" id="">
+  <input type="tel" name="" id="">
+  <!-- email 및 tel은 모바일에서 특화되어있다. -->
+  </body>
+</html>

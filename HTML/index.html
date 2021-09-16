@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="EUC-KR">
+        <title>
+            html 첫 문서
+        </title>
+        <style>
+            table {
+                border: 1px solid black;
+                border-collapse: collapse;
+                background: darkgray;
+            }
+            td {
+                border: 1px solid black;
+                width: 100px;
+                height: 100px;
+            }
+            th {
+                border: 1px solid black;
+                width: 100px;
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div>로고</div>
+            <nav>
+                메뉴
+            </nav>
+        </header>
+        <main>
+            <h1>레드향</h1>
+            <h2>레드향</h2>
+            <h3>레드향</h3>
+            <h4>레드향</h4>
+            
+            <hr>
+            <p>
+                1. 웹표준(html, css, javascript)<br>
+                2. jsp(서플릿) model 1, 2<br>
+                3. 스프링(spring)프레임워크 mvc(model view Controller)
+            </p>    
+            <blockquote><strong>비타민 C</strong>와 <strong>비타민 P</strong>가 풍부해<br>혈액 순환, 감기예방 등에 좋은 것으로 알려져 있다.</blockquote>
+            <ol>
+                <li>html</li>
+                <li>css </li>
+                <li>javascript</li>
+            </ol>
+
+            <ul>
+                <li>html</li>
+                <li>css </li>
+                <li>javascript</li>
+            </ul>
+            
+            <dl>
+                <dt>언어1</dt>
+                <dd>html</dd>
+                <dt>언어2</dt>
+                <dd>css</dd>
+                <dt>언어3</dt>
+                <dd>javascript</dd>
+            </dl>
+
+            <table>
+                <caption>표 실습</caption>
+                <thead>
+                    <tr>
+                        <th>용도</th>
+                        <th>중량</th>
+                        <th>개수</th>
+                        <th>가격</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>선물용</td>
+                        <td>3kg</td>
+                        <td>11~16과</td>
+                        <td>35,000원</td>
+                    </tr>
+                    <tr>
+                        <td>선물용</td>
+                        <td>3kg</td>
+                        <td>11~16과</td>
+                        <td>35,000원</td>
+                    </tr>
+                    <tr>
+                        <td>선물용</td>
+                        <td>3kg</td>
+                        <td>11~16과</td>
+                        <td>35,000원</td>
+                    </tr>
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+
+            <table>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td rowspan="2">3</td>
+                        <td>4</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        
+                        <td></td>
+                        <td colspan="2"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td rowspan="2"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        
+                        <td></td>
+                        <td></td>
+                    </tr>
+            </table>
+
+            // <img src="/source/04/images/tangerines.jpg" alt="레드향"> 앞에 /를 붙일 경우 절대 경로
+            // <img src="images/tangerines.jpg" alt="레드향"> 앞에 /이 없는 경우는 해당 파일의 상대경로 안에서 시작
+        </main>
+        <footer>
+            <hr>
+            강사이름 : 김준일
+            연락처 : 010-9988-1916
+            수업 : 웹 & 앱 개발
+        </footer>
+</html>
